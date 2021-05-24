@@ -1,0 +1,38 @@
+img {
+    width: 100%;
+}
+
+.my-container {
+    height: 100vh;
+    background-color: antiquewhite;
+    /* position: relative; */
+}
+
+.my-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.my-image-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.myImage {
+    width: 200px;
+    height: 200px;
+    background-image: url('../image/jugal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+
+
+
