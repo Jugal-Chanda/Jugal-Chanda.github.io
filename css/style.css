@@ -52,8 +52,9 @@ img {
     height: 200px;
     background-image: url('../image/jugal.jpg');
     background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     border-radius: 50%;
     position: relative;
     left: 50%;
